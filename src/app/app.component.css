@@ -1,0 +1,49 @@
+p {
+    font-family: Lato;
+  }
+  
+  .filter {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .body {
+    margin: 3;
+    padding: 3;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .squares {
+    flex: 20%;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+  }
+  
+  .selected img {
+    height: 20vh;
+  }
+  
+  .selected .details ul {
+    list-style-type: none;
+  }
+  
